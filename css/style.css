@@ -198,3 +198,48 @@ header .container {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
+
+
+/* Services */
+#services h2 {
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.service-item {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.service-item img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.service-item h3 {
+    
+    font-size: 25.6px;
+}
+
+.service-item p {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.service-item .price {
+    font-weight: bold;
+    font-size: 19.2px;
+    color: #e74c3c;
+    margin-top: 10px;
+}
