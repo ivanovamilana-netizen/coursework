@@ -243,3 +243,6 @@ header .container {
     color: #e74c3c;
     margin-top: 10px;
 }
+.gallery h2 {
+    margin-bottom: 40px;
+}
